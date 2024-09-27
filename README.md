@@ -14,21 +14,21 @@ I was looking for a way of exporting my kata solutions from codewars, nothing wo
 - recommended: create and activate a virtual environment
 - On Linux:
 ```
-	python -m venv .venv
-	source .venv/Scripts/activate
+python -m venv .venv
+source .venv/Scripts/activate
 ```
 - On Windows:
 ```
-	python -m venv .venv
-	.venv/Scripts/activate
+python -m venv .venv
+.venv/Scripts/activate
 ```
 - install requirements
 ```
-	pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 - run the application
 ```
-	python janscke.py
+python janscke.py
 ```
 - provide username and password when asked
 - other options can be skipped and set to default by pressing enter
