@@ -98,7 +98,7 @@ class Kata:
     @property
     def source_codes(self):
         codes = self.soup.find_all("div", {"class": "markdown"})
-        return ["".join(code.findAll(string=True)) for code in codes]
+        return ["".join(code.find_all(string=True)) for code in codes]
 
     @property
     def languages(self):
